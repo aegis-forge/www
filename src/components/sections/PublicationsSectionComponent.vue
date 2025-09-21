@@ -9,7 +9,7 @@
         class="flex flex-col min-[597px]:flex-row items-center border w-full mt-[-1px] ml-[-1px]"
       >
         <div
-          class="flex justify-center items-center !font-mono text-[#D1D1D1] text-[18px] w-full h-full border-b min-[597px]:border-r min-[597px]:w-[100px] min-h-[100px] min-w-[100px]"
+          class="flex justify-center items-center !font-mono text-[#D1D1D1] text-[18px] w-full h-full border-b min-[597px]:border-r min-[597px]:border-b-0 min-[597px]:w-[100px] min-h-[100px] min-w-[100px]"
         >
           [ {{ publication.typz }}{{ String(publications.length - ind).padStart(2, '0') }} ]
         </div>
