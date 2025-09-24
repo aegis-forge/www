@@ -23,10 +23,10 @@ jobs:
         uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v.28.5
         with:
           cache: npm
-          node-version: 23.11.0
+          node-version: 24.0.2
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build with Vite
         run: npm run build
