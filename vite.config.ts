@@ -12,7 +12,6 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
-  base: "/www/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
