@@ -25,7 +25,7 @@
             {{ publication.date.getFullYear() }},
             <span v-if="publication.doi !== ''">
               doi:
-              <a :href="publication.doi" class="link break-all" target="_blank">
+              <a :href="`https://doi.org/${publication.doi}`" class="link break-all" target="_blank">
                 {{ publication.doi.replace('https://doi.org/', '') }}
               </a>.
             </span>

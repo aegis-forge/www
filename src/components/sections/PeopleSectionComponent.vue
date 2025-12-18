@@ -1,5 +1,5 @@
 <template>
-  <div id="tools">
+  <div id="people">
     <header-component current="03" total="03" title="People" class="border-t" />
 
     <div class="flex flex-wrap overflow-hidden border-l w-[calc(100%+1px)] min-[1322px]:w-[calc(100%+2px)]">
