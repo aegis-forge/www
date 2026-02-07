@@ -17,9 +17,12 @@
         <div class="flex w-full h-full items-center pr-5 pl-5 m-5 min-[597px]:pl-0 min-[597px]:pr-0">
           <p class="text-justify break-words">
             {{ publication.authors }},
-            "<a :href="publication.link" target="_blank" class="link">
-              {{ publication.title }}
-            </a>",
+            <span v-if="publication.link !== ''">
+              "<a :href="publication.link" target="_blank" class="link">
+                {{ publication.title }}
+              </a>",
+            </span>
+            <span>"{{ publication.title }}"</span>
             {{ publication.venue }},
             {{ publication.publisher }},
             {{ publication.date.getFullYear() }},
