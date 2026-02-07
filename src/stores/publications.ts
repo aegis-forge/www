@@ -16,6 +16,16 @@ export const usePublicationsStore = defineStore('publications', {
     publications: [
       {
         authors: 'E. Riggio and C. Pautasso',
+        title: 'Changing Nothing, Yet Changing Everything: Exploring Rug Pulls in GitHub Workflows',
+        venue: '23rd IEEE International Conference on Software Architecture (ICSA)',
+        publisher: 'IEEE',
+        typz: 'C',
+        link: '',
+        doi: '',
+        date: new Date('2025-12-01'),
+      },
+      {
+        authors: 'E. Riggio and C. Pautasso',
         title: 'Pipelines Under Pressure: An Empirical Study of Security Misconfigurations of GitHub Workflows',
         venue: '26th International Conference on Product-Focused Software Process Improvement (PROFES)',
         publisher: 'Springer',
