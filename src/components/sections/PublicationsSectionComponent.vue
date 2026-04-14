@@ -22,7 +22,7 @@
                 {{ publication.title }}
               </a>",
             </span>
-            <span>"{{ publication.title }}"</span>
+            <span v-else>"{{ publication.title }}"</span>
             {{ publication.venue }},
             {{ publication.publisher }},
             {{ publication.date.getFullYear() }},

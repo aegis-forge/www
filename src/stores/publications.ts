@@ -20,7 +20,7 @@ export const usePublicationsStore = defineStore('publications', {
         venue: '23rd IEEE International Conference on Software Architecture (ICSA)',
         publisher: 'IEEE',
         typz: 'C',
-        link: '',
+        link: 'https://raw.githubusercontent.com/edoriggio/www/main/src/assets/pdfs/rigg2026a.pdf',
         doi: '',
         date: new Date('2025-12-01'),
       },
